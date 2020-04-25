@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorNavigation">#fff</color>
+    <color name="colorNavigationDivider">#E0E0E0</color>
+    <color name="colorDisabled">#808080</color>
+    <color name="colorBlack">#000</color>
+
+    <color name="colorLow">#7EDCE775</color>
+    <color name="colorModerate">#7E4DD0E1</color>
+    <color name="colorExtreme">#77E57373</color>
+</resources>

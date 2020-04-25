@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <!--Table-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <!--ROW 1-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/txt_covidCases"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:drawableTop="@drawable/ic_patient"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="Covid cases"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/txt_hospital"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:drawableTop="@drawable/ic_hospital"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="Hospital &amp; beds"
+                android:textColor="@color/colorBlack" />
+
+
+        </LinearLayout>
+        <!--ROW 2-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/txt_testCases"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:drawableTop="@drawable/ic_blood"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="Test Cases"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/txt_notifications"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:drawableTop="@drawable/ic_domain"
+                android:gravity="center"
+                android:text="Quick links"
+                android:textColor="@color/colorBlack" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

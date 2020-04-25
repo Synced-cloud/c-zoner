@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.C19UserFragment">
+
+        <RadioGroup
+            android:id="@+id/safetySelection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/txtLow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_toStartOf="@id/txtModerate"
+                android:drawableTop="@drawable/ic_low"
+                android:gravity="center"
+                android:text="Low"
+                android:textColor="@color/colorBlack" />
+
+            <RadioButton
+                android:id="@+id/txtModerate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_toStartOf="@id/txtExtreme"
+                android:drawableTop="@drawable/ic_moderate"
+                android:gravity="center"
+                android:text="Moderate"
+                android:textColor="@color/colorBlack" />
+
+            <RadioButton
+                android:id="@+id/txtExtreme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:drawableTop="@drawable/ic_extreme"
+                android:gravity="center"
+                android:text="Extreme"
+                android:textColor="@color/colorBlack" />
+
+        </RadioGroup>
+
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/safetySelection" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="20dp"
+            android:text="Save" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="20dp"
+            android:layout_toStartOf="@id/btnSave"
+            android:text="Clear" />
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/news_feed">
+
+    <fragment
+        android:id="@+id/news_feed"
+        android:name="com.rax.c_zoner.ui.NewsFeedFragment"
+        android:label="News feed"
+        tools:layout="@layout/fragment_news_feed" />
+
+    <fragment
+        android:id="@+id/c19Map"
+        android:name="com.rax.c_zoner.ui.C19UserFragment"
+        android:label="C-19 Map"
+        tools:layout="@layout/fragment_c19_user" />
+
+    <fragment
+        android:id="@+id/epass_user"
+        android:name="com.rax.c_zoner.ui.EPassUserFragment"
+        android:label="E-Pass"
+        tools:layout="@layout/fragment_epass_user" />
+    <fragment
+        android:id="@+id/add_fence"
+        android:name="com.rax.c_zoner.ui.AddFencingFragment"
+        android:label="Add Fencing" />
+    <fragment
+        android:id="@+id/tracking"
+        android:name="com.rax.c_zoner.ui.TrackingFragment"
+        android:label="Tracking" />
+    <fragment
+        android:id="@+id/epass_pwd"
+        android:name="com.rax.c_zoner.ui.EPassPWDFragment"
+        android:label="E-Pass" />
+</navigation>

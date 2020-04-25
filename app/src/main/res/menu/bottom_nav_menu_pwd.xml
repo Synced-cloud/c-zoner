@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tracking"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Tracking" />
+
+    <item
+        android:id="@+id/add_fence"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Add Fencing" />
+
+    <item
+        android:id="@+id/epass_pwd"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="E-Pass" />
+
+</menu>
